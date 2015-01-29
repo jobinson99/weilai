@@ -6,25 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>临时指向</title>
+    <title>未来家</title>
 
     <style>
-     .templink {
-       width: 100%;
-       height: 100%;
-       display: block;
+     .site-name,
+     .slogan {
+       text-shadow: #ee3333 -20px 0px 8px, #33ee33 20px 0px 5px;
+       text-align: center;
+     }
+     .site-name {
+       font-size: 350%;
+       font-weight: bold;
+       margin-top: 50px;
+       margin-bottom: 10px;
+     }
+     .slogan {
+       font-size: 200%;
+       font-style: italic;
+     }
+     
+     nav {
        position: fixed;
-       z-index: 100;
-       margin-top: -10px;
-       margin-left: -10px;
+       top: 40%;
+       left: 0;
+       width: 100%;
+       padding: 0;
+       margin: 0;
+     }
+     nav ul {
+       list-style: none;
+     }
+     nav li a {
+       display: block;
+       float: left;
+       text-decoration: none;
+       font-weight: bold;
+       color: white;
+       background: rgba(187,187,255, 0.95);
+       text-align: center;
+       padding-top: 20px;
+       height: 80px;
+       width: 200px;
+       border-right: 1px solid white;
+       
+     }
+     nav a:hover {
+       color: blue;
+       background: rgba(255, 187, 187, 0.95);
+     }
+     article {
+       height: 300px;
+     }
+     footer {
+       postion: absolute;
+       bottom: 0;
      }
     </style>
 
   </head>
-  
+
   <body>
+    <header>
+      <h1 class="site-name">未来家</h1>
+      <p class="slogan">我们的孩子就是未来的……家</p>
+    </header>
     
-    <iframe class="templink" src="http://i-org.ga"></iframe>
+    <nav>
+      <ul>
+        <li><a href="http://shop115364028.taobao.com">网店</a></li>
+        <li><a href="">微信群</a></li>
+        <li><a href="">扣扣群</a></li>
+        <li><a href="">贴吧</a></li>
+        <li><a href="">微博</a></li>
+        <li><a href="http://chong.ga">【加盟】一起发财</a></li>
+      </ul>
+    </nav>
+    
+    <article></article>
+    
+    <footer>未来家2015</footer>
     
   </body>
 </html>
